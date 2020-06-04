@@ -1,0 +1,32 @@
+@media(max-width:900px){ /* Funciona com só 450 ou 
+    funciona com 1025px e 5px no bottom do header a */
+    #page-home{
+        background-position-x:70vw;
+    }
+    #page-home .content{
+        align-items:center;
+        text-align:center;
+    }
+    #page-home header a{
+        position:absolute;
+        top: 110%;
+        bottom: -0.1%;
+        left:50%;
+        transform:translateX(-50%);
+    }
+    #page-home main{
+        align-items:center;
+        margin-bottom: 50%;
+    }
+}
+@media(min-width:1700px){
+    #page-home{
+        background-position-x:40vw;
+    }
+}
+
+@media(max-height:760px){
+    #page-home{
+        background-position-y:bottom;
+    }
+}
